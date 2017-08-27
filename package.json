@@ -1,0 +1,17 @@
+{
+    "name": "global-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "lite-server -c server.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@syncfusion/ej2": "^1.0.10"
+    },
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    }
+}
