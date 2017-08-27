@@ -4,6 +4,20 @@
 
 `npm install` or `npm i`
 
+## Using EJ2 Global Module 
+
+All modules are registered under the `ej` namespace with the name of `<moduleName>Module`. You can access through `ej` name space.
+
+The following example is to render the button component using the global file.
+
+```js
+var button1 = new ej.buttonModule.Button({
+    isPrimary: true
+});
+button1.appendTo('#button');
+```
+
 ## Running Application
 
 `npm start`
+
