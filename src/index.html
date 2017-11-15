@@ -11,8 +11,8 @@
     <link href="./material.css" rel="stylesheet" />
 
     <!-- EJ2 Script Refernce -->
-    <!-- File path `./node_modules/@syncfusion/ej2/dist/global/ej2.js` -->
-    <script src="./dist/global/ej2.js"></script>
+    <!-- File path `./node_modules/@syncfusion/ej2/dist/ej2.js` -->
+    <script src="./dist/ej2.min.js"></script>
 
     <!-- Data Source for grid -->
     <script src="./datasource.js"></script>
@@ -27,7 +27,7 @@
     <main class="container" style="min-height: 400px;padding-top: 10px;">
         <div id="Grid"></div>
         <script>
-            var grid = new ej.gridModule.Grid({
+            var grid = new ej.grids.Grid({
                 dataSource: data,
                 columns: [{
                     field: 'OrderID',
@@ -51,7 +51,7 @@
             });
             grid.appendTo('#Grid');
 
-            // var button1 = new ej.buttonModule.Button({
+            // var button1 = new ej.buttons.Button({
             //     isPrimary: true
             // });
 

@@ -6,7 +6,7 @@
         "start": "lite-server -c server.config.js"
     },
     "dependencies": {
-        "@syncfusion/ej2": "^1.0.10"
+        "@syncfusion/ej2": "*"
     },
     "devDependencies": {
         "lite-server": "^2.3.0"
